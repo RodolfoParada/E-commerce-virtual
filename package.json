@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "cypress run --spec 'cypress/e2e/**/*.spec.js'"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.14.7",
+    "cypress": "^15.8.2",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
